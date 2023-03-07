@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carousel_datas",
+  "info": {
+    "singularName": "carousel-data",
+    "pluralName": "carousel-datas",
+    "displayName": "carousel-data"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "sub_title": {
+      "type": "string"
+    },
+    "carousel_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

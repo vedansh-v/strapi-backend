@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "website_datas",
+  "info": {
+    "singularName": "website-data",
+    "pluralName": "website-datas",
+    "displayName": "website-data"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
